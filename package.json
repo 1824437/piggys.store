@@ -1,0 +1,19 @@
+{
+  "name": "piggys.store",
+  "version": "1.0.0",
+  "description": "web site server ",
+  "main": "app.js",
+  "repository": "git:projects/piggys.store.git",
+  "author": "tao.zhu <zhutao@live.cn>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch app"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "handlebars": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
